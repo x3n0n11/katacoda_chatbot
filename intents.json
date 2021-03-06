@@ -1,34 +1,34 @@
 {"intents": [
-    {"tag": "greeting",
-     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+    {"intent": "greeting",
+     "questions": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
      "responses": ["Hello", "Hi", "Hi there"]
     },
-    {"tag": "goodbye",
-     "patterns": ["Bye", "See you later", "Goodbye"],
+    {"intent": "goodbye",
+     "questions": ["Bye", "See you later", "Goodbye"],
      "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
     },
-    {"tag": "thanks",
-     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+    {"intent": "thanks",
+     "questions": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
     },
-    {"tag": "about",
-     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+    {"intent": "about",
+     "questions": ["Who are you?", "What are you?", "Who you are?" ],
      "responses": ["I'm NobelBot, your bot assistant", "I'm NobelBot, an Artificial Intelligent bot"]
     },
-    {"tag": "name",
-    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    {"intent": "name",
+    "questions": ["what is your name", "what should I call you", "whats your name?"],
     "responses": ["You can call me NobelBot.", "I'm NobelBot!", "Just call me as NobelBot"]
     },
-    {"tag": "help",
-    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    {"intent": "help",
+    "questions": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
     "responses": ["Tell me how I can assist you", "Tell me your problem to assist you", "Yes sure, How can I support you"]
     },
-    {"tag": "learn",
-    "patterns": ["I want to learn more about AI", "What is Machine Learning", "I want to learn", "can you teach me about ai", "how to build a chatbot"],
+    {"intent": "learn",
+    "questions": ["I want to learn more about AI", "What is Machine Learning", "I want to learn", "can you teach me about ai", "how to build a chatbot"],
     "responses": ["You can learn more about it on our classes", "LMS has a lot of cool info about this"]
     },
-    {"tag": "interest",
-    "patterns": ["what do you like to do", "how do you spend your free time", "whats your favorite thing"],
+    {"intent": "interest",
+    "questions": ["what do you like to do", "how do you spend your free time", "whats your favorite thing"],
     "responses": ["I love talking to Explorers", "I love to talk about science with Explorers"]
     }
 ]
